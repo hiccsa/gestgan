@@ -235,7 +235,8 @@ https://bit.ly/2NTDQht-->
 
        <script>
        	 document.addEventListener('DOMContentLoaded',function(){
-       	 	M.AutoInit();
+       	 	 var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
        	 });
        </script>
 
