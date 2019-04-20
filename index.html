@@ -128,7 +128,25 @@ https://bit.ly/2NTDQht-->
 		<div class="row">
 			<div class="col s12 m12">
 				<h4 class="green-text">Capturas</h4>
-				<div class="carousel">
+
+<div class="carousel carousel-slider">
+    				<a class="carousel-item" href="#one!"><img  src="images/capturas/1.jpg"></a>
+    				<a class="carousel-item" href="#two!"><img  src="images/capturas/2.jpg"></a>
+    				<a class="carousel-item" href="#three!"><img  src="images/capturas/3.jpg"></a>
+    				<a class="carousel-item" href="#four!"><img  src="images/capturas/4.jpg"></a>
+    				<a class="carousel-item" href="#five!"><img  src="images/capturas/5.jpg"></a>
+    				<a class="carousel-item" href="#six!"><img  src="images/capturas/6.jpg"></a>
+    				<a class="carousel-item" href="#seven!"><img  src="images/capturas/7.jpg"></a>
+    				<a class="carousel-item" href="#eight!"><img  src="images/capturas/8.jpg"></a>
+    				<a class="carousel-item" href="#nine!"><img  src="images/capturas/9.jpg"></a>
+    				<a class="carousel-item" href="#ten!"><img  src="images/capturas/10.jpg"></a>
+    				<a class="carousel-item" href="#eleven!"><img  src="images/capturas/11.jpg"></a>
+    				<a class="carousel-item" href="#twelve!"><img  src="images/capturas/12.jpg"></a>
+    				<a class="carousel-item" href="#thirteen!"><img  src="images/capturas/13.jpg"></a>
+    				<a class="carousel-item" href="#fourteen!"><img  src="images/capturas/14.jpg"></a>
+  </div>
+
+				<!--<div class="carousel">
                     <a class="carousel-item" href="#one!"><img class="responsive-img" src="images/capturas/1.jpg"></a>
     				<a class="carousel-item" href="#two!"><img class="responsive-img" src="images/capturas/2.jpg"></a>
     				<a class="carousel-item" href="#three!"><img class="responsive-img" src="images/capturas/3.jpg"></a>
@@ -137,7 +155,7 @@ https://bit.ly/2NTDQht-->
     				<a class="carousel-item" href="#six!"><img class="responsive-img" src="images/capturas/6.jpg"></a>
     				<a class="carousel-item" href="#seven!"><img class="responsive-img" src="images/capturas/7.jpg"></a>
     				<a class="carousel-item" href="#eight!"><img class="responsive-img" src="images/capturas/8.jpg"></a>
-  				</div><br>
+  				</div>--><br>
 			</div>
 			<center>
 			<div class="col s12 m12">
@@ -231,14 +249,28 @@ https://bit.ly/2NTDQht-->
  </footer>
 
   <!-- Compiled and minified JavaScript -->
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       
 
-       <script>
+      <!-- <script>
        	 document.addEventListener('DOMContentLoaded',function(){
-       	 	 var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems);
+       	 	M.AutoInit();
        	 });
-       </script>
+       </script>-->
+
+ <script type="text/javascript">
+ 	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+ 	 var instances = M.Carousel.init(elems,{
+    fullWidth: true,
+    numVisible: 14,
+    indicators:true
+  });
+
+ var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+ 	  });
+ </script>
 
        <!--Start of Tawk.to Script-->
     <script type="text/javascript">
